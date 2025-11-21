@@ -1,5 +1,6 @@
-def get_employee_info(
-    name, emp_id,department,salary):
-        return f"Employee Name: {name},\n ID: {emp_id},\n Department: {department},\n Salary: {salary}"
+def get_employee_info(name, emp_id, department, salary):
+    return f"Employee Name: {name},ID: {emp_id},Department: {department},Salary: {salary}"
 
-print(get_employee_info("Prasanna", "EMP001", "IT", 60000))
+
+# Print to verify manually (optional)
+print(get_employee_info("Alice Smith", "EMP202", "HR", 60000))
